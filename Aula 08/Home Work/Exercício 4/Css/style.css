@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  left: 8px;
+}
+
+h1 {
+  position: absolute;
+  color: green;
+  text-decoration: underline;
+  left: 5px;
+}
+
+.int {
+  position: absolute;
+  top: 50px;
+}
+
+main {
+  position: absolute;
+  top: 150px;
+}
+
+h2 {
+  color: rgb(55, 216, 55);
+
+}
+
+.img {
+  position: relative;
+  top: 11px;
+}
+
+.img1{
+width: 130px;
+height: 110px;
+}
+
+.p1{
+position: relative;
+top: 20px;
+left: 0px;
+}
+
+.div2{
+  position: relative;
+  top: 30px;
+  left: 0px;
+}
+
+.sub2{
+  position: relative;
+  top: 30px;
+  left: 0px;
+}
+
+.p2{
+   position: relative;
+    top: 50px;
+    left: 0px;
+  }

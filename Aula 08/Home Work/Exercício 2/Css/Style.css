@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+html{
+height: 100%;
+
+}
+
+header {
+  height: 90px;
+  width: 100%;
+  background-color: rgb(56, 56, 56);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 2%;
+}
+
+.div1 {
+  height: 270px;
+  width: 250px;
+  background-color: white;
+  color: black;
+  padding-top: 4%;
+  padding-left: 2%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.input {
+  background-color: rgb(249, 96, 40);
+  border-radius: 6px;
+  border-style: none;
+  height: 22px;
+  margin-top: 2px;
+}
+
+label {
+  color: rgb(249, 96, 40);
+  font-weight: bold;
+  
+}
+
+.text {
+  background-color: rgb(249, 96, 40);
+  border-radius: 6px;
+  margin-top: 2px;
+}
+
+.botao1 {
+  background-color: rgb(249, 96, 40);
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 21%;
+  width: 55px;
+  color: white;
+  font-weight: bold;
+}
+
+.botao2 {
+  background-color: rgb(249, 96, 40);
+  border-radius: 5px;
+  text-align: center;
+  width: 55px;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(139, 196, 239);
+  height: 100%;
+}
+
+footer {
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-weight: bold;
+  font-size: 95%;
+  margin-top: 170px;
+  padding: 1%;
+  height: 22px;
+  
+}

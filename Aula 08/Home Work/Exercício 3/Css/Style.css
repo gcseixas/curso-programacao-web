@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(131, 176, 176);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 240px;
+  width: 600px;
+  background-color: rgb(244, 234, 221);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+p{
+color: blueviolet;
+
+}
+
+.p1{
+margin-top: 35px;
+
+
+}
+
+.p2{
+margin-top: 30px;
+
+
+}
+

@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.row {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+
+div.news  {
+    width: 350px;
+    
+  }
+
+
+div.row img {
+  height: 200px;
+  width: 350px;
+}
+
+

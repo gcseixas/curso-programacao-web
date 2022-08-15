@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+header {
+  height: 140px;
+  width: 100%;
+  background-color: rgb(56, 56, 56);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 2%;
+}
+
+.Menu{
+  height: 40px;
+  width: 100%;
+  background-color: rgb(6, 170, 71);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 2%;
+}
+
+.Conteúdo{
+  height: 315px;
+  width: 100%;
+  background-color: rgb(170, 189, 178);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 2%;
+}
+
+footer{
+  height: 30px;
+  width: 100%;
+  background-color: rgb(78, 82, 80);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 2%;
+}

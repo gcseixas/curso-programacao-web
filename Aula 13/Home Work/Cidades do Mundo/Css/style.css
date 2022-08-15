@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+
+div.nav {
+  display: flex;
+  height: 110px;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+div.botao {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+div.content-city {
+  font-size: 160%;
+  font-weight: 150%;
+}
+
+.navleft {
+  margin-left: 30px;
+}
+
+div.nav1 {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(24, 217, 217);
+  color: aliceblue;
+  font-size: 400%;
+}
+
+div.figure {
+  width: 100%;
+  height: 500px;
+  background-image: url("./Assets/cancun.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: rgb(213, 210, 210);
+}
+
+div.titulo {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 170%;
+}
+
+div.paragrafos {
+  text-align: justify;
+  font-size: 130%;
+  font-weight: 150%;
+  margin-bottom: 50px;
+}
+
+div.saiba {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 120%;
+  font-weight: bold;
+  background-color: rgb(24, 217, 217);
+}
+
+div.info {
+  margin-top: 40px;
+  font-size: 380%;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.titulotable {
+  color: white;
+  background-color: rgb(61, 59, 59);
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  margin-top: 25px;
+}
+
+.ponto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 50px;
+  background-color: rgb(24, 217, 217);
+  font-size: 120%;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(24, 217, 217);
+}
+
+.pfooter {
+  font-size: 130%;
+  font-weight: bold;
+}
+
+/* Complemento */
+
+div.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+div.figure2 {
+  width: 100%;
+  height: 500px;
+  background-image: url("./Assets/Mapa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cele {
+  margin-top: 20px;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.li {
+  margin-top: 10px;
+}
+
+/* Sugestão */
+
+div.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.forms{
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+

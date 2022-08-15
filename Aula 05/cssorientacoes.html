@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo CSS</title>
+
+    <style>
+        /* Isso é para toda a página */
+
+        * {
+
+            color: black;
+
+        }
+
+
+        /* Configuração para margem, seja interna ou externa, 
+        os comandos abaixo recetam o código dentro da universão*/
+
+        * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Comandos para estilizar o botão que foi inserido abaixo do P */
+        button {
+
+            padding: 10px;
+            margin: 30px;
+
+
+        }
+
+        /* Grupo de seletores */
+
+        h1,
+        p,
+        button {
+
+            color: blue;
+            border: 2px solid green;
+
+        }
+
+
+        p {
+
+            padding: 10px;
+            border: 3px solid black;
+            margin: 10px;
+
+        }
+
+
+        /* Isso é uma classe com margem, borda e sombra */
+
+        p.segundoParagrafo {
+
+            padding: 10px;
+            border: 3px solid red;
+            margin: 10px;
+            /* Configuração de sombra */
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 10);
+            /* Configuração de altura */
+
+            /* Configuração altura */
+            height: 200px;
+
+            /* Configuração da largura */
+            /* Com porcentagem, ele mantém em 50% acompanhando a tela  */
+            width: 50%;
+
+            /* Mais alguns exemplos de padding */
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <h1>
+
+            Isso é um título
+
+        </h1>
+
+    </header>
+
+    <main>
+
+        <p>
+
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla asperiores repudiandae, quia sapiente
+            laborum, minus dignissimos odit, vitae quod quos saepe. Id consequatur fugiat accusamus cum ipsam aut.
+            Recusandae, totam.
+
+        </p>
+
+        <p class="segundoParagrafo">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus suscipit,
+            molestias molestiae laudantium magni, accusantium quibusdam, sit quisquam delectus illo placeat
+            accusamus facere nam quod tempore. Corrupti sint voluptates et.
+        </p>
+
+        <button>
+
+            Validar
+
+        </button>
+
+    </main>
+
+    <footer>
+
+        &copy;Copyright | Gabriel Costa
+
+    </footer>
+
+</body>
+
+</html>

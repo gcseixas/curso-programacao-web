@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.square {
+
+  height: 400px;
+  width: 25%;
+  border: solid rgb(74, 74, 123);
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  
+
+}
+
+.square img{
+
+    height: 100px;
+    margin-top: 10px;
+
+
+}
