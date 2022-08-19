@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
@@ -194,12 +197,48 @@ div.container3 {
   padding: 20px;
 }
 
-.forms{
-display: flex;
-flex-direction: column;
-
-
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
+footer.footer1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 680px;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(24, 217, 217);
+}
 
+.botao2 {
+  margin-top: 10px;
+  width: 120px;
+  height: 40px;
+  font-size: 120%;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+input {
+  height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 120%;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+textarea {
+  padding: 10px;
+}
