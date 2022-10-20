@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+div.box {
+  width: 1000px;
+  height: 200px;
+  margin: 10px auto;
+  padding: 50px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button.botao{
+height: 60px;
+width: 150px;
+border-radius: 7px;
+font-size: 108%;
+font-weight: bold;
+border: solid 3px;
+}
