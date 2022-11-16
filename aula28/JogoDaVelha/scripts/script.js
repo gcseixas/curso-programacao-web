@@ -24,14 +24,14 @@ window.addEventListener("DOMContentLoaded", () => {
   // [6],[7],[8]
 
   const winningConditions = [
-    [0][1][2],
-    [3][4][5],
-    [6][7][8],
-    [0][3][6],
-    [1][4][7],
-    [2][5][8],
-    [0][4][8],
-    [2][4][6],
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6],
   ];
 
   const isValidAction = (tile) => {
@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", () => {
     playerDisplay.classList.add(`player${currentPlayer}`);
   };
 
-  const announce = (type) => {
+  const announce = type => {
     switch (type) {
       case PLAYER_O_WON:
         announcer.innerHTML = 'Player <spam class="playerO">O</spam> Won';
@@ -76,8 +76,64 @@ window.addEventListener("DOMContentLoaded", () => {
     for (let i = 0; i <= 7; i++) {
       const winningConditions = winningConditions[i];
 
-      
+      const a = board[winningConditions[0]];
+      const b = board[winningConditions[1]];
+      const c = board[winningConditions[2]];
+
+      if (a === "" || b === "" || c === "") {
+        continue;
+      }
+
+      if (a === b && b === c) {
+        roundWon = true;
+        break;
+      }
+    }
+
+    if (roundWon) {
+      announce(currentPlayer === "X" ? PLAYER_X_WON : PLAYER_O_WON);
+      isGameActive = false;
+      return;
+    }
+    if (!board.includes("")) {
+      announce(TIE);
     }
   };
-});
+  const userAction = (tile, index) => {
+    // console.log(tile);
 
+    if (isValidAction(tile) && isGameActive) {
+      tile.innerText = currentPlayer;
+      tile.classList.add(`player${currentPlayer}`);
+
+      updateBoard(index);
+
+      handleResultValidation();
+      changePlayer();
+    }
+  };
+
+  tiles.forEach((tile, index) => {
+    tile.addEventListener("click", () => userAction(tile, index));
+  });
+
+  const resetBoard = () => {
+    board = ["", "", "", "", "", "", "", "", ""];
+
+    isGameActive = true;
+
+    announce.classList.add("hide");
+
+    if (currentPlayer === "O") {
+      changePlayer();
+    }
+
+    tiles.forEach((tile) => {
+      tile.innerText = "";
+      tile.classList.remove("playerX");
+      tile.classList.remove("playerO");
+    });
+  };
+
+  resetButton.addEventListener("click", resetBoard);
+});
