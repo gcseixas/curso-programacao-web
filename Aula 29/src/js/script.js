@@ -7,7 +7,7 @@ const criarLista = () => {
   //   console.log(listaResultado)
   if (listaItem.value.length !== 0) {
     addItems(lista, listaItem.value);
-    exibirLista(lista, listaResultado)
+    exibirLista(lista, listaResultado);
   } else {
     exibirErro();
   }
